@@ -246,6 +246,20 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreeMath.Biz\FreeMath.Biz.csproj">
+      <Project>{1bf1efff-01aa-477f-b107-78e78285e542}</Project>
+      <Name>FreeMath.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeMath.Domain\FreeMath.Domain.csproj">
+      <Project>{8b322da7-512f-4be8-b326-21efc25284d1}</Project>
+      <Name>FreeMath.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeMath.Utility\FreeMath.Utility.csproj">
+      <Project>{5e8953d2-a62c-450f-aa9f-dba8fa90cb14}</Project>
+      <Name>FreeMath.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

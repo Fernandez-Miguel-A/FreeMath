@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeMath.DAL", "FreeMath.DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeMath.Utility", "FreeMath.Utility\FreeMath.Utility.csproj", "{5E8953D2-A62C-450F-AA9F-DBA8FA90CB14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeMath.Domain", "FreeMath.Domain\FreeMath.Domain.csproj", "{8B322DA7-512F-4BE8-B326-21EFC25284D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5E8953D2-A62C-450F-AA9F-DBA8FA90CB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E8953D2-A62C-450F-AA9F-DBA8FA90CB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E8953D2-A62C-450F-AA9F-DBA8FA90CB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B322DA7-512F-4BE8-B326-21EFC25284D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B322DA7-512F-4BE8-B326-21EFC25284D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B322DA7-512F-4BE8-B326-21EFC25284D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B322DA7-512F-4BE8-B326-21EFC25284D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
